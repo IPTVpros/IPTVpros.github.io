@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.iptvcraft\.com$ [NC]
+RewriteRule ^(.*)$ https://iptvcraft.com/$1 [R=301,L]
